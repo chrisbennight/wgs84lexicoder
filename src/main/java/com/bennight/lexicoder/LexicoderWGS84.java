@@ -61,7 +61,7 @@ public class LexicoderWGS84 implements Lexicoder<CoordinateWGS84> {
 					numIterations++;
 				}
 			}
-			System.out.println(String.format("Actual lattitude error:         %.7f", sumActualErrorLat / numIterations));
+			System.out.println(String.format("Actual latitude error:         %.7f", sumActualErrorLat / numIterations));
 			System.out.println(String.format("Worst case avg longitude error: %.7f", sumAbsErrorLon / numIterations));
 			System.out.println("----------------------------------------------------");
 
